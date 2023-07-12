@@ -1,0 +1,128 @@
+@font-face {
+    font-family:kumbh ;
+    src: url(KumbhSans-VariableFont_YOPQ,wght.ttf);
+}
+.section{
+    height: 100px;
+    width: 100px;
+    background:linear-gradient(to right,rgb(0, 255, 213), rgb(1, 203, 253));
+}
+.section::before{
+    height: 150px;
+    width: 150px;
+    background:linear-gradient(to top,rgb(0, 255, 213), rgb(1, 203, 253));
+    border-radius: 50%;
+}
+*{
+    font-family: kumbh;
+    font-size: 18px;
+    }
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 450px;
+}
+ body{
+    background-color:rgb(0, 255, 213);
+    padding: 50PX;
+    margin: 0;
+ }
+ .box svg{
+    width:330px;
+    height: 130px;
+    border: 0.1px solid rgba(199, 197, 197, 0.536); 
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.BACK{
+    
+    height: 130px;
+    
+}
+.middle{
+    width:230px;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    padding: 50px;
+    padding-top: 60px;
+    border: 0.1px solid rgba(199, 197, 197, 0.595); 
+    background-color:azure;
+}
+name{
+    font-weight: 750;
+    font-size: 22px;
+}
+.middle age{
+    color: hsl(0, 0%, 59%);
+}
+
+place{
+    color:  hsl(0, 0%, 59%);
+}
+.bottom{
+    height: 60px;
+    width: 300px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-around;
+    border: 0.1px solid rgba(199, 197, 197, 0.479); 
+    padding: 15px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color:azure;
+
+}
+.one, .two, .three{
+    font-size: 14px;
+    width: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align:center;
+    color: hsl(0, 0%, 59%);
+}
+.bottom number{
+    font-weight: 700;
+    font-size: 20px;
+    color: hsl(229, 23%, 23%);
+}
+.photo img{
+        position:absolute;
+        bottom:348px;
+        right: 575px;
+        height: 110px;
+        width: 110px;
+        /* align-self: self-start; */
+        border-radius: 50%;
+        border: 5px solid white;
+        z-index: 1;
+        display: block;
+        justify-self: start;
+}
+
+section{
+    height: 800px;
+    width: 800px;
+    background:linear-gradient(to right,rgb(0, 255, 213), rgb(167, 232, 248));
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20em;
+    right: 38em;
+    z-index: -1;
+    }
+
+    section2{
+        height: 800px;
+        width: 800px;
+        background:linear-gradient(to left,rgb(0, 255, 225), rgba(21, 241, 190, 0.862));
+        border-radius: 50%;
+        position: fixed;
+        top: 16em;
+        left: 38em;
+        z-index: -1;
+
+        }
